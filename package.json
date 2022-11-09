@@ -1,0 +1,39 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resoures/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanhVoQuan/nodejs.git"
+  },
+  "keywords": [
+    "thanh",
+    "blog",
+    "thanh",
+    "nodejs",
+    "nodejs"
+  ],
+  "author": "thanhvq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThanhVoQuan/nodejs/issues"
+  },
+  "homepage": "https://github.com/ThanhVoQuan/nodejs#readme",
+  "dependencies": {
+    "dirname": "^0.1.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
